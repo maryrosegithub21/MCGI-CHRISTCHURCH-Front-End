@@ -12,12 +12,14 @@ export default function HeroBanner() {
 
 // Handle form submission logic here
 const handleClicksignUpHero = (e) => {
-  e.preventDefault();
+  // e.preventDefault();
 // path for showing the sign up form 
-  navigate('/mcgi-feast-portal-sign-up'); 
+  // navigate('https://docs.google.com/document/d/1HzG41PncXWmnAZJ3D4ksoIvC7I41yzgpW25dBZpQWMo/edit?usp=drive_link'); 
+  window.open('https://docs.google.com/forms/d/1RHi93Cpq3e6zWXatLa7yLFjYH-64_ZIMzfcZhWFUSMc/edit ');
+
 };
   return (
-  < div className={styles.parentContainerHeroMRA}>   
+  <div className={styles.parentContainerHeroMRA}>   
   < div className={styles.btnSignUpDivHero} >
   <button type='submit' className={styles.SignUpButtonHeroMRA} onClick={handleClicksignUpHero}>
     REGISTER NOW

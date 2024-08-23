@@ -43,9 +43,10 @@ const [nav, setNav] = useState(false)
     // === for Sign UP display ===//
     // const[isShownSignUP, setIsShownSignUp] = useState(false);
     const handleClickSignUp = (e) => {
-      e.preventDefault();
-    // path for showing the sign up form 
-      navigate('/mcgi-feast-portal-sign-up'); 
+    //   e.preventDefault();
+    // // path for showing the sign up form 
+    //   navigate('https://docs.google.com/document/d/1HzG41PncXWmnAZJ3D4ksoIvC7I41yzgpW25dBZpQWMo/edit?usp=drive_link'); 
+    window.open('https://docs.google.com/forms/d/1RHi93Cpq3e6zWXatLa7yLFjYH-64_ZIMzfcZhWFUSMc/edit');
     };
     // ^^^ for SignUp display ^^^//
 
@@ -53,7 +54,7 @@ const [nav, setNav] = useState(false)
   return (
     <header className={styles.HeaderNavbar}>
       {/* === Left Part of the Header === */}
-      <img  src={mcgilogo} alt="mcgilogo" style={{height:50, width:150}}></img>
+      < img  src={mcgilogo} alt="mcgilogo" style={{height:50, width:150}}></img>
 
       {/* === Center Part of the Header === */}
     <nav>
